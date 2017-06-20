@@ -1,0 +1,23 @@
+<div class="jumbo show-listing">
+  <h2 class="title">{{model.location.title}}</h2>
+  <div class="detail-section">
+    <div class="left detail">
+      <strong>Popularity:</strong> {{model.popularity}}
+    </div>
+    <div class="right detail">
+      <strong>NightLife:</strong> {{model.nightlife_index}}
+    </div>
+  </div>
+  <div class="top-cuisines">
+    <h3 class="title"> Top Cuisines </h3>
+    {{#each model.top_cuisines as |type|}}
+      <span> {{type}} &nbsp; &nbsp; &nbsp; &nbsp; </span>
+    {{/each}}
+  </div>
+  <div class="best-res">
+    <h3 class="title"> Best Rated Restaurants </h3>
+    {{#each model.best_rated_restaurant as |res|}}
+      {{restaurant-listing restaurant=res.restaurant}}
+    {{/each}}
+  </div>
+</div>

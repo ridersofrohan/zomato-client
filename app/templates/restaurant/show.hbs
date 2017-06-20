@@ -1,0 +1,24 @@
+<div class="jumbo show-listing">
+  <div class="header">
+    <span class="feat-image">
+      <img src="{{model.featured_image}}" class="res-image" alt="">
+    </span>
+    <span class="titles">{{model.name}}</span>
+  </div>
+  <div class="detail-section">
+    <div class="left detail">
+      <strong>Average Cost for Two:</strong> {{model.average_cost_for_two}}
+    </div>
+    <div class="right detail">
+      <strong>Rating:</strong> {{model.user_rating.aggregate_rating}}
+    </div>
+  </div>
+  <div class="location">
+    <p class="address"> {{model.location.address}} </p>
+    {{location-map location=model.location}}
+  </div>
+  <div class="top-cuisines">
+    <h3 class="title"> Cuisines </h3>
+    <p class="cuisine-types"> {{model.cuisines}} </p>
+  </div>
+</div>

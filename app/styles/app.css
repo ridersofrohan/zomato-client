@@ -1,0 +1,83 @@
+.container {
+  padding-right: 20%;
+  padding-left: 20%;
+}
+
+.title {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.header {
+  padding-left: 22%;
+  margin-bottom: 30px;
+}
+
+.header .titles {
+  font-size: 30px;
+  line-height: 50px;
+  height: 100px;
+  padding-left: 50px;
+}
+
+.top-cuisines {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.res {
+  padding: 20px;
+  overflow: hidden;
+}
+.res img {
+  margin-right: 15px;
+  height: 100px;
+  float: left;
+}
+
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+
+.listing {
+  height: 100px;
+}
+
+.res-image {
+  height: 50px;
+}
+
+.location {
+  margin-top: 50px;
+}
+
+.map-container {
+  padding-left: 35%;
+  margin-bottom: 30px;
+}
+
+.map {
+  height: 250px;
+  width: 250px;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.feat-image {
+  text-align: center;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.cuisine-types {
+  text-align: center;
+}
+
+.address {
+  text-align: center;
+}

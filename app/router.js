@@ -7,6 +7,12 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('cities', function() {
+    this.route('show', { path: '/:city_info'});
+  });
+  this.route('restaurant', function() {
+    this.route('show', { path: '/:res_id'});
+  });
 });
 
 export default Router;
